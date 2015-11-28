@@ -17,6 +17,8 @@ BEGIN_MESSAGE_MAP(CoglMFCDialogApp, CWinApp)
 END_MESSAGE_MAP()
 
 
+
+
 // CoglMFCDialogApp construction
 
 CoglMFCDialogApp::CoglMFCDialogApp()
@@ -66,6 +68,12 @@ BOOL CoglMFCDialogApp::InitInstance()
 		// TODO: Place code here to handle when the dialog is
 		//  dismissed with Cancel
 	}
+
+
+
+
+
+
 
 	// Since the dialog has been closed, return FALSE so that we exit the
 	//  application, rather than start the application's message pump.

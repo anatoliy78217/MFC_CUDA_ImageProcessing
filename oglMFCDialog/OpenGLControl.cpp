@@ -2,7 +2,11 @@
 #include "OpenGLControl.h"
 #include ".\openglcontrol.h"
 
+#include "Utility.h"
 
+//#include "opencv2/opencv.hpp"
+
+void InitTexture();
 
 // Global Vars
 GLuint VBO, VAO;
@@ -76,6 +80,16 @@ void GLInit()
     ourShader = new Shader("basic.vs", "basic.frag");
 
 	BuildVBO ();
+}
+
+CTexture tex1, tex2;
+void InitTexture()
+{
+	tex1 = CTexture();
+	tex1.LoadTexture2D("dice_texture1.png");
+	//tex2 = CTexture();
+	//tex2.LoadTexture2D("awesomeface.png");
+
 }
 
 COpenGLControl::COpenGLControl(void)
@@ -360,6 +374,7 @@ void COpenGLControl::oglDrawScene(void)
 	//		glVertex3f(-1.0f,  1.0f,  1.0f);
 	//		glVertex3f(-1.0f,  1.0f, -1.0f);
 	//glEnd();
+
 
 	ourShader->Use();
 	glBindVertexArray(VAO);

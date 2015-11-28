@@ -1,6 +1,8 @@
 #pragma once
 #include "afxwin.h"
 
+
+
 #ifndef GLEW_STATIC
 #define GLEW_STATIC
 #include <GL/glew.h>
@@ -13,6 +15,8 @@
 #include <GLFW/glfw3.h>
 
 #include <learnopengl/Shader.h>
+
+#include "CTexture.h"
 
 class COpenGLControl : public CWnd
 {
@@ -62,3 +66,4 @@ class COpenGLControl : public CWnd
 
 		DECLARE_MESSAGE_MAP()
 };
+
