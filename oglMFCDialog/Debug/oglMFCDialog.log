@@ -1,5 +1,5 @@
-﻿Build started 11/28/2015 1:42:37 AM.
-     1>Project "C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\oglMFCDialog.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 11/28/2015 1:30:29 PM.
+     1>Project "C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\oglMFCDialog.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Phi\OpenCV\opencv3.0.0\build\x86\vc12\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\oglMFCDialog.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
@@ -26,7 +26,7 @@
        ManifestResourceCompile:
          C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /nologo /fo"Debug\oglMFCDialog.exe.embed.manifest.res" Debug\oglMFCDialog_manifest.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\oglMFCDialog.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Phi\OpenCV\opencv3.0.0\build\x86\vc12\lib opengl32.lib glew32s.lib glfw3.lib glu32.lib opencv_ts300d.lib opencv_world300d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:res\oglMFCDialog.manifest /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug\oglMFCDialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\oglMFCDialog.lib" /MACHINE:X86 /SAFESEH Debug\oglMFCDialog.res
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\oglMFCDialog.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Phi\OpenCV\opencv3.0.0\build\x86\vc12\lib opengl32.lib glew32s.lib glfw3.lib glu32.lib opencv_ts300d.lib opencv_world300d.lib gls2d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:res\oglMFCDialog.manifest /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"Debug\oglMFCDialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug\oglMFCDialog.lib" /MACHINE:X86 /SAFESEH Debug\oglMFCDialog.res
          Debug\CTexture.obj
          Debug\oglMFCDialog.obj
          Debug\oglMFCDialogDlg.obj
@@ -50,8 +50,8 @@
      1>glfw3.lib(winmm_joystick.obj) : warning LNK4204: 'C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
      1>glfw3.lib(wgl_context.obj) : warning LNK4204: 'C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\Debug\vc120.pdb' is missing debugging information for referencing module; linking object as if no debug info
          oglMFCDialog.vcxproj -> C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\Debug\oglMFCDialog.exe
-     1>Done Building Project "C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\oglMFCDialog.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "C:\Phi\SemesterProject\MFC_CUDA_ImageProcessing\oglMFCDialog\oglMFCDialog.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.44
+Time Elapsed 00:00:05.46

@@ -16,7 +16,16 @@
 
 #include <learnopengl/Shader.h>
 
+// OpenCV
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+
+
+#include <iostream>
+using namespace std;
+
 #include "CTexture.h"
+#include "gls2.h"
 
 class COpenGLControl : public CWnd
 {

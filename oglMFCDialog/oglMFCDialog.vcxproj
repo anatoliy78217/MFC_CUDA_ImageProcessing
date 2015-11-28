@@ -119,6 +119,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CTexture.h" />
+    <ClInclude Include="gls2.h" />
     <ClInclude Include="oglMFCDialog.h" />
     <ClInclude Include="oglMFCDialogDlg.h" />
     <ClInclude Include="OpenGLControl.h" />
@@ -135,6 +136,8 @@
   <ItemGroup>
     <None Include="basic.frag" />
     <None Include="basic.vs" />
+    <None Include="ImageProc.frag" />
+    <None Include="ImageProc.vs" />
     <None Include="res\oglMFCDialog.rc2" />
   </ItemGroup>
   <ItemGroup>

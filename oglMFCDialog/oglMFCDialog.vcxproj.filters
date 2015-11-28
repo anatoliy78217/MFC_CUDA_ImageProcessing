@@ -56,6 +56,9 @@
     <ClInclude Include="CTexture.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="gls2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\oglMFCDialog.ico">
@@ -75,6 +78,12 @@
       <Filter>Source Files</Filter>
     </None>
     <None Include="basic.vs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ImageProc.frag">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ImageProc.vs">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
