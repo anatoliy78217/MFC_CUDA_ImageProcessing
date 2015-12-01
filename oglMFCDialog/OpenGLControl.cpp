@@ -111,7 +111,7 @@ void InitTexture()
 	//tex1.LoadTexture2D("dice_texture1.png");
 	/*tex1.LoadTexture2D("images/NLM_lg.png", CV_LOAD_IMAGE_COLOR, GL_NEAREST, GL_NEAREST, GL_CLAMP);*/
 
-	tex1.LoadTexture2D("C:/Phi/SemesterProject/MFC_CUDA_ImageProcessing/oglMFCDialog/Images/NLM_lg.png", CV_LOAD_IMAGE_COLOR, GL_NEAREST, GL_NEAREST, GL_CLAMP);
+	tex1.LoadTexture2D("Images/NLM_lg.png", CV_LOAD_IMAGE_COLOR, GL_NEAREST, GL_NEAREST, GL_CLAMP);
 
 
 
